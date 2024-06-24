@@ -32,7 +32,7 @@ function App() {
                         <div className="card bg-base-100 w-96 shadow-xl">
                             <figure>
                                 <img
-                                    src="/personal-web/socialeditor.png"
+                                    src="../socialeditor.png"
                                     className="object-cover"
                                     alt="SocialEditor"/>
                             </figure>
@@ -53,7 +53,7 @@ function App() {
                         <div className="card bg-base-100 w-96 shadow-xl">
                             <figure>
                                 <img
-                                    src="/personal-web/evento.png"
+                                    src="../evento.png"
                                     className="object-cover"
                                     alt="Evento"/>
                             </figure>
