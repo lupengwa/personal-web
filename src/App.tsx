@@ -7,7 +7,7 @@ function App() {
         <header className="flex p-12 items-center h-14 bg-white bg-opacity-80">
             <h2 className="text text-xl font-medium animate-[fadeintopnav_1s_backwards] transition-all duration-500">Steve Portofolio</h2>
             <nav className='flex flex-row ml-auto gap-2 p-2'>
-                <a className="ml-3 text-gray-500" target="_blank" href="https://www.linkedin.com/in/steve-wang-a74b225a/">
+                <a className="ml-3 text-gray-500 animate-[fadeintopnav_1s_backwards] transition-all duration-500" target="_blank" href="https://www.linkedin.com/in/steve-wang-a74b225a/" >
                     <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                          stroke-width="0" className="w-5 h-5" viewBox="0 0 24 24">
                         <path stroke="none"
