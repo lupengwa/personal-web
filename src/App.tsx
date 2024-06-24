@@ -5,7 +5,7 @@ function App() {
   return (
     <>
         <header className="flex p-12 items-center h-14 bg-white bg-opacity-80">
-            <h2 className="text text-xl font-medium">Steve Portofolio</h2>
+            <h2 className="text text-xl font-medium animate-[fadeintopnav_1s_backwards] transition-all duration-500">Steve Portofolio</h2>
             <nav className='flex flex-row ml-auto gap-2 p-2'>
                 <a className="ml-3 text-gray-500" target="_blank" href="https://www.linkedin.com/in/steve-wang-a74b225a/">
                     <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -18,10 +18,10 @@ function App() {
             </nav>
         </header>
         <main className="flex h-[calc(100vh_-_96px)] justify-center items-center">
-            <section className="text-gray-600 body-font">
+            <section className="text-gray-600 body-font -translate-y-14 animate-[fadeintopmain_1s_0.2s_backwards] transition-all duration-500">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="text-center mb-20">
-                        <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Frontend Work
+                        <h1 className="sm:text-6xl text-4xl font-medium title-font text-gray-900 mb-4">Frontend Work
                             Demo</h1>
                         <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s"></p>
                         <div className="flex mt-6 justify-center">
