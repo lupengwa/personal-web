@@ -58,7 +58,7 @@ function App() {
                                     alt="Evento"/>
                             </figure>
                             <div className="card-body">
-                                <h2 className="card-title">Social Editor</h2>
+                                <h2 className="card-title">Event Artist Finder</h2>
                                 <p>Web design for concert artist</p>
                                 <div className="card-actions justify-end">
                                     <a className="mt-3 text-indigo-500 inline-flex items-center" href="#" target="_blank">Learn More
