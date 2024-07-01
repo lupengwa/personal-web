@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens:{
+        'xs': '773px',
+      },
       keyframes: {
         fadeintopnav: {
           '0%': { opacity:0,transform: 'translateY(-50px)' },

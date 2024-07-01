@@ -1,7 +1,6 @@
 import './App.css'
 
 function App() {
-
   return (
     <>
         <header className="flex p-12 items-center h-14 bg-white bg-opacity-80">
@@ -17,7 +16,7 @@ function App() {
                 </a>
             </nav>
         </header>
-        <main className="flex h-[calc(100vh_-_96px)] justify-center items-center">
+        <main className="flex xs:h-[calc(100vh_-_96px)] justify-center items-center">
             <section className="text-gray-600 body-font -translate-y-14 animate-[fadeintopmain_1s_0.2s_backwards] transition-all duration-500">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="text-center mb-20">
@@ -28,7 +27,7 @@ function App() {
                             <div className="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
                         </div>
                     </div>
-                    <div className="flex justify-center items-center space-x-6 sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+                    <div className="flex justify-center items-center flex-wrap w-full gap-4 space-x-6 xs:-m-4 xs:flex-nowrap -mb-10 -mt-4 md:space-y-0 space-y-6">
                         <div className="card bg-base-100 w-96 shadow-xl">
                             <figure>
                                 <img
